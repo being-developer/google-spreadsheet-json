@@ -1,6 +1,6 @@
 {
   "name": "google-spreadsheet-json",
-  "description": "changes the google spread sheet into json into row and matrix form",
+  "description": "changes the google spread sheet into json into tabular form",
   "version": "1.0.2",
   "main": "main.js",
   "author": {
@@ -8,10 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caolan/async.git"
-  },
-  "bugs": {
-    "url": "https://github.com/caolan/async/issues"
+    "url": "git+https://github.com/theSupermacy/google-spreadsheet-json.git"
+
   },
   "keywords": [
     "async",
@@ -58,66 +56,5 @@
     "semver": "^4.3.6",
     "uglify-js": "~2.4.0",
     "yargs": "~3.9.1"
-  },
-  "scripts": {
-    "coverage": "nyc npm test && nyc report",
-    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "lint": "jshint lib/ test/ mocha_test/ perf/memory.js perf/suites.js perf/benchmark.js support/ karma.conf.js && jscs lib/ test/ mocha_test/ perf/memory.js perf/suites.js perf/benchmark.js support/ karma.conf.js",
-    "mocha-browser-test": "karma start",
-    "mocha-node-test": "mocha mocha_test/ --compilers js:babel-core/register",
-    "mocha-test": "npm run mocha-node-test && npm run mocha-browser-test",
-    "nodeunit-test": "nodeunit test/test-async.js",
-    "test": "npm run-script lint && npm run nodeunit-test && npm run mocha-node-test"
-  },
-  "license": "MIT",
-  "jam": {
-    "main": "dist/async.js",
-    "include": [
-      "dist/async.js",
-      "README.md",
-      "LICENSE"
-    ],
-    "categories": [
-      "Utilities"
-    ]
-  },
-  "spm": {
-    "main": "dist/async.js"
-  },
-  "volo": {
-    "main": "dist/async.js",
-    "ignore": [
-      "**/.*",
-      "node_modules",
-      "bower_components",
-      "test",
-      "tests"
-    ]
-  },
-  "homepage": "https://github.com/caolan/async#readme",
-  "_id": "async@2.0.0-rc.3",
-  "_shasum": "1fae1160594dd47dbe5431d4726d66b10f374d89",
-  "_from": "async@latest",
-  "_npmVersion": "3.8.3",
-  "_nodeVersion": "4.4.1",
-  "_npmUser": {
-    "name": "aearly",
-    "email": "alexander.early@gmail.com"
-  },
-  "dist": {
-    "shasum": "1fae1160594dd47dbe5431d4726d66b10f374d89",
-    "tarball": "https://registry.npmjs.org/async/-/async-2.0.0-rc.3.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "supermacy",
-      "email": "rahulanandsinha@gmail.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/async-2.0.0-rc.3.tgz_1460063486663_0.06838028854690492"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/async/-/async-2.0.0-rc.3.tgz"
+  }
 }

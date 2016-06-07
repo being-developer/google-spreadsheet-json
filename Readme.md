@@ -2,9 +2,9 @@
 
 
 This is a software which will convert the Spreadsheet into the JSON using Google API
-### Alpha
+### Beta Version
 
-This library is in Alpha. We will make an effort to support the library, but we reserve the right to make incompatible changes when necessary.
+This library is in Beta version.
 
 ### Questions/problems?
 
@@ -27,11 +27,11 @@ $ npm install google-spreadsheet-json --save
 ``` js
 var GoogleSpreadsheetJSON = require('google-spreadsheet-json');
 
-GoogleSpreadsheetJSON(Your KEY,Your filename which has address from the base directory,function(err,data){
+GoogleSpreadsheetJSON(YourKEY,fileNameFromBaseAddress,function(err,data){
     if(err)
-        // Handle the error
+        //Handle the error
     else
-      // Do with the response
+       //Do with the response
 })
 ```
 
