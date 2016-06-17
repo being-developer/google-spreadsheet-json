@@ -9,7 +9,8 @@ This library is in Beta version.
 ### Questions/problems?
 
 * Ask your development related questions on [![Ask a question on Stackoverflow][overflowimg]][stackoverflow]
-* If you've found an bug/issue, please [file it on GitHub][bugs].
+* If you've found an bug/issue, please  file it on . Or  you can always reach me with the bug at rahulanandsinha@gmail.com
+*
 
 ## Installation
 

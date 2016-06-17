@@ -7,7 +7,7 @@ var result={};
 module.exports=function(key,name,callback){
     // The file should be present in the root folder and then its name should be passed
     // otherwise the name of the file should be relative .
-    var filename='./'+name;
+    var filename='./../../'+name;
     // The second argument should be key of the api after registering in the google api.
     var doc = new GoogleSpreadsheet(key);
     var sheet;

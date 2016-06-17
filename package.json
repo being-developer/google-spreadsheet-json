@@ -1,6 +1,6 @@
 {
   "name": "google-spreadsheet-json",
-  "description": "changes the google spread sheet into json into tabular form",
+  "description": "Changes the google spread sheet into json into tabular form",
   "version": "1.0.3",
   "main": "main.js",
   "author": {
